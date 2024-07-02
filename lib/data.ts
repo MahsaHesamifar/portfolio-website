@@ -1,13 +1,11 @@
+import adminisImg from "@/public/adminis.png";
+import image from "@/public/avatar.png";
+import divar from "@/public/divar.png";
+import farhangiImg from "@/public/farhangi.png";
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-import image from "@/public/avatar.png";
-import farhangiImg from "@/public/farhangi.png";
-import adminisImg from "@/public/adminis.png";
+import { TbBrandNextjs } from "react-icons/tb";
 
 export const links = [
   {
@@ -61,29 +59,38 @@ export const experiencesData = [
     title: "Front-end Developer (React)",
     location: "Qazvin",
     description:
-      "I'm now a Front-end developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Material UI and Redux. I'm open to full-time opportunities.",
+      "I'm Front-end developer working as a freelancer. My stack includes React, Tailwind, Material UI and Redux.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2022 - present",
+  },
+  {
+    title: "Next.js Intern at EazyHoosh Company",
+    location: "Qazvin",
+    description:
+      "Currently learning and working with Next.js App Router, TypeScript, RTK Query, Tailwind CSS, Next UI, and React Hook Form.",
+    icon: React.createElement(TbBrandNextjs),
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "University's Cultural Department Website",
+    title: "Divar Clone App",
     description:
-      "I worked as a front-end developer on this startup project with my team.",
+      "This is a clone of the Divar site built with modern web technologies. The app replicates the core functionalities of Divar, including listing advertisements, user interactions, and more.",
     tags: [
-      "React",
-      "Material UI",
-      "Complex forms with Formik",
-      "Yup",
-      "Axios",
-      "Responsive Design",
+      "Next Js",
+      "RTK Query",
+      "Typescript",
+      "Tailwind CSS",
+      "React Hook Form",
+      "Custom Hooks",
     ],
-    imageUrl: farhangiImg,
-    link: "http://farhangi.ikiu.ac.ir/",
-    github: "",
+    imageUrl: divar,
+    link: "",
+    github: "https://github.com/MahsaHesamifar/divar-clone-app",
   },
+
   {
     title: "ADMINIS",
     description:
@@ -103,28 +110,48 @@ export const projectsData = [
     link: "https://react-admin-gep5eo7wm-mahsas-projects-d06496ac.vercel.app",
     github: "https://github.com/MahsaHesamifar/react-admin-panel",
   },
+  {
+    title: "University's Cultural Department Website",
+    description:
+      "I worked as a front-end developer on this startup project with my team.",
+    tags: [
+      "React",
+      "Material UI",
+      "Complex forms with Formik",
+      "Yup",
+      "Axios",
+      "Responsive Design",
+    ],
+    imageUrl: farhangiImg,
+    link: "http://farhangi.ikiu.ac.ir/",
+    github: "",
+  },
 ];
 
 export const skillsData = [
-  "React",
-  "Material UI",
-  "Redux",
   "Next.js",
-  "Restful API",
-  "SASS",
-  "HTML",
-  "CSS",
+  "React",
+  "TypeScript",
   "JavaScript",
+  "Custom Hooks",
+  "Material UI",
+  "NextUI",
+  "Redux",
+  "Redux Toolkit",
+  "Context API",
+  "RTK Query",
+  "Axios",
+  "SASS",
+  "Tailwind CSS",
   "Git",
   "GitHub",
   "Responsive Design",
-  "Custom Hooks",
-  "Context API",
-  "TypeScript",
-  "Tailwind CSS",
   "Framer Motion",
   // "Three.js",
   "Adobe XD",
   "Adobe Illustrator",
   "Figma",
+  "React Hook Form",
+  "Formik",
+  "Clean code principles",
 ] as const;
