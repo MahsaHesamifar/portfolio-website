@@ -77,12 +77,13 @@ export const projectsData = [
   {
     title: "Divar Clone App",
     description:
-      "This is a clone of the Divar site built with modern web technologies. The app replicates the core functionalities of Divar, including listing advertisements, user interactions, and more.",
+      "This is a clone of the Divar site, replicating its core functionalities including advertisement listings and user interactions, built with modern web technologies.",
     tags: [
       "Next Js",
       "RTK Query",
       "Typescript",
       "Tailwind CSS",
+      "Middleware",
       "React Hook Form",
       "Custom Hooks",
     ],
@@ -134,6 +135,7 @@ export const skillsData = [
   "TypeScript",
   "JavaScript",
   "Custom Hooks",
+  "Middleware",
   "Material UI",
   "NextUI",
   "Redux",
