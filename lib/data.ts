@@ -88,7 +88,7 @@ export const projectsData = [
       "Custom Hooks",
     ],
     imageUrl: divar,
-    link: "",
+    link: "https://divar-clone-app.liara.run/",
     github: "https://github.com/MahsaHesamifar/divar-clone-app",
   },
 
